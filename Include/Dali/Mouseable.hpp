@@ -10,7 +10,7 @@ namespace Dali {
 
     class Component {
       public:
-        auto build(const Mouseable& props) const {
+        auto render(const Mouseable& props) const {
           return body;
         }
     };

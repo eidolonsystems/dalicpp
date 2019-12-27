@@ -8,7 +8,7 @@ namespace Dali {
 
     class Component {
       public:
-        auto build(const Label& props) const {
+        auto render(const Label& props) const {
         }
     };
   };

@@ -9,7 +9,7 @@ namespace Dali {
 
     class Component {
       public:
-        auto build(const HBox& props) const {
+        auto render(const HBox& props) const {
         }
     };
   };
